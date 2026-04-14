@@ -19,3 +19,23 @@ else:
 nucleotídeo = ""
 
 if (nucleotídeo != )
+
+#atividade 2
+
+digit = input("digite o nucleotídeo:")
+
+if digit ==  "A":
+    print("T")
+    
+elif digit == "T":
+    print("A")
+    
+elif digit == "C":
+    print("G")
+    
+elif digit == "G":
+    print("C")
+    
+else:
+    print("nucleotídeo invalido")
+  
