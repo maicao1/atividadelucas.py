@@ -73,3 +73,41 @@ elif escolha == "4":
 else:
     print("Opção inválida!")
 
+#/////////////////////////////////////////////////////////////
+
+ #atividade 4
+    
+ #   Escrever um algoritmo que lê o sexo (“m” ou “M” ou “f” ou “F”) 
+ # e a idade de uma pessoa e que escreve o valor da entrada a ser pago,
+ # de acordo com as seguintes regras:
+
+    
+#a) Feminino ou masculino, com menos de 10 anos ou mais de 65, valor = R$0,50;
+#b) Feminino ou masculino, com idade entre 10 e 17, valor = R$4,28;
+#c) Feminino, com idade entre 18 e 65, valor = R$5,50; 
+#d) Masculino, com idade entre 18 e 65, valor = R$8,25.
+
+
+    #INCOMPLETO
+    
+print("digite seu genero e sua idade ")
+    
+genero = (input("informe seu genero:"))
+idade = int(input("informe sua idade:"))
+
+if idade <= 10 or idade>=65:
+    print("entrada a ser paga: R$0,50")
+        
+elif idade >= 10 and idade <= 17:
+  print("entrada a ser paga: R$4,28")
+  
+  #CODIGO ABAIXO NAO ESTA FUNCIONANDO
+    
+elif 18 <= idade <= 65 and genero == "f":
+    print("entrada a ser paga: R$5,50")
+    
+elif 18 <= idade <= 65 and genero == "m":
+    print("entrada a ser paga: R$8,25")
+    
+            
+
