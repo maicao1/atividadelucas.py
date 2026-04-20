@@ -104,3 +104,21 @@ elif 18 >= idade <= 65 and genero == "m"or "masculino":
 #///////////////////////////////////////
     
 #ATIVIDADE FEITA UTILIZANDO WHILE
+
+#atividade 2
+
+n = int(input('Quantos números irão aparecer na sequência de Fibonacci: '))
+index = 1
+f = [1, 1]
+
+if(n == 1):
+    f.pop(1)
+elif(n == 0):
+    f = []
+else:
+    while (len(f) < n):
+        f.append(f[index]+f[index-1])
+        index += 1
+print(f)
+
+
